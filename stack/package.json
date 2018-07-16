@@ -1,0 +1,19 @@
+{
+  "name": "boardtrainer",
+  "version": "0.1.1",
+  "description": "board sim env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serna08/board-trainer.git"
+  },
+  "author": "maybeabot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serna08/board-trainer/issues"
+  },
+  "homepage": "https://github.com/serna08/board-trainer#readme"
+}
