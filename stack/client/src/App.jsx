@@ -1,6 +1,6 @@
 import React from 'react';
 export default class App extends React.Component {
   render () {
-    return <p> hello react </p>;
+    return <p> hello react bundled </p>;
   }
 }
