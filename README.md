@@ -6,3 +6,5 @@ AS, NA
 node flask react webpack babel
 # branches
 master: 100% working // backup: of master // devt: AS dev // devn: NA dev
+# slack
+boardtrainer.slack.com
