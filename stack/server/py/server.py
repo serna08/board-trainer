@@ -33,5 +33,6 @@ def show_post(post_id):
 def show_calc(calc_id):
     return whatsquare(calc_id)
 
+
 if __name__ == "__main__":
     app.run()
