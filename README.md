@@ -1,5 +1,5 @@
-# board-trainer
-general purpose env for board game analysis
+# game-trainer
+game analysis environment/arena
 # auths
 AS, NA
 # stack
@@ -7,4 +7,4 @@ node flask react webpack babel
 # branches
 master: 100% working // backup: of master // devt: AS dev // devn: NA dev
 # slack
-boardtrainer.slack.com
+gametrainer.slack.com

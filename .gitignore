@@ -1,4 +1,4 @@
 # node dependencies
 node_modules
 # bundled output
-client/dist/
+stack/client/dist/
