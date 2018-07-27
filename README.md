@@ -1,10 +1,11 @@
 # game-trainer
+## codename : snakeeyes
 game analysis environment/arena
-# auths
+### auths
 AS, NA
-# stack
+#### stack
 node flask react webpack babel
-# branches
+#### branches
 master: 100% working // backup: of master // devt: AS dev // devn: NA dev
-# slack
+#### slack
 gametrainer.slack.com

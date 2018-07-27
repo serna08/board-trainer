@@ -16,10 +16,14 @@ const tileStyle = {
   verticalAlign: 'top'
 };
 
+const boardStyle = {
+  padding: '10px'
+};
+
 class Board2x2 extends React.Component {
    render() {
       return (
-         <div>
+         <div style={boardStyle}>
             <button style={tileStyle} type="button" disabled={1}></button>
             <button style={tileStyle} type="button" disabled={0}></button>
             <br/>
