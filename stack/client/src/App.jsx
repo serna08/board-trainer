@@ -8,8 +8,9 @@ import App1 from './boardsimple.jsx';
 
 const App = () => (
   <React.Fragment>
-{/*
+
     <NavigationMenu />
+    {/*
     <NavigationTabs />
     <App1 />
 */}
