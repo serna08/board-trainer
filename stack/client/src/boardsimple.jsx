@@ -10,16 +10,21 @@ class App1 extends React.Component {
    }
 }
 
+const tileStyle = {
+  height: '50px',
+  width: '50px',
+  verticalAlign: 'top'
+};
+
 class Board2x2 extends React.Component {
    render() {
       return (
          <div>
-
-            <button type="button" disabled={1}>A</button>
-            <button type="button" disabled={0}>B</button>
+            <button style={tileStyle} type="button" disabled={1}></button>
+            <button style={tileStyle} type="button" disabled={0}></button>
             <br/>
-            <button type="button" disabled={1}>C</button>
-            <button type="button" disabled={1}>D</button>
+            <button style={tileStyle} type="button" disabled={1}>o</button>
+            <button style={tileStyle} type="button" disabled={1}></button>
          </div>
       );
    }
