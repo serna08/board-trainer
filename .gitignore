@@ -2,3 +2,5 @@
 node_modules
 # bundled output
 stack/client/dist/
+#py backups
+stack/server/py/__pycache__/
