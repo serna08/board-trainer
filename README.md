@@ -5,7 +5,12 @@ game analysis environment / arena
 ### by AS, AN
 ### gametrainer.slack.com
 
-##### stack:
+#### stack:
 node flask react webpack babel
-##### branches:
+#### branches:
 master: 100% working // backup: of master // devt: AS dev // devn: NA dev
+
+
+_____
+#### quickstart:
+tbd 
