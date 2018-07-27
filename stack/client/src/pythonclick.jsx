@@ -14,7 +14,7 @@ class PyButton extends React.Component {
           <br/>
           <h4>Button Pressed: {this.ButtonPressed}</h4>
           <form method="post">
-            <Button bsStyle="danger" type="submit">click here yo</Button>
+            <Button bsStyle="danger" type="submit">python</Button>
             </form>
         </div>
       );

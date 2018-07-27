@@ -16,7 +16,7 @@ const App = () => (
     <br />
     <ButtonToolbar>
       <Button>reset</Button>
-      <Button bsStyle="warning">python</Button>
+      <Button bsStyle="warning">nothing</Button>
     </ButtonToolbar>
 
     <PyButton/>

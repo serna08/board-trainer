@@ -11,13 +11,13 @@ class App1 extends React.Component {
 }
 
 const tileStyle = {
-  height: '50px',
-  width: '50px',
+  height: '80px',
+  width: '80px',
   verticalAlign: 'top'
 };
 
 const boardStyle = {
-  padding: '10px'
+  padding: '15px'
 };
 
 class Board2x2 extends React.Component {
@@ -32,7 +32,7 @@ handleClick() {
       return (
          <div style={boardStyle}>
             <button style={tileStyle} type="button" disabled={1}></button>
-            <button style={tileStyle} type="button" disabled={0} onClick={this.handleClick}></button>
+            <button style={tileStyle} type="button" disabled={0} onClick={this.handleClick}>active</button>
             <br/>
             <button style={tileStyle} type="button" disabled={1}>o</button>
             <button style={tileStyle} type="button" disabled={1}></button>
