@@ -1,12 +1,21 @@
-from flask import Flask, render_template, render_template_string
+from flask import Flask, render_template, render_template_string, request, redirect, url_for
 from otherpys import *
 
 app = Flask(__name__, static_folder="../../client/dist", template_folder="../../client")
 
+
+
 #main bundled (webpacked) react app
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def index():
-    return render_template("src/index.html")
+
+    ButtonPressed = 0
+    if request.method == "POST":
+        ButtonPressed += 1
+        print('button was pressed')
+    else:
+        print('button not pressed')
+    return render_template("src/index.html", ButtonPressed = ButtonPressed)
 
 #constant string
 @app.route("/flask")
@@ -35,4 +44,4 @@ def show_calc(calc_id):
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)

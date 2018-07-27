@@ -5,6 +5,7 @@ import { Button, ButtonToolbar } from 'react-bootstrap';
 import NavigationMenu from './navigation.jsx';
 //import NavigationTabs from './tabs.jsx';
 import App1 from './boardsimple.jsx';
+import PyButton from './pythonclick.jsx';
 
 const App = () => (
   <React.Fragment>
@@ -15,11 +16,10 @@ const App = () => (
     <br />
     <ButtonToolbar>
       <Button>reset</Button>
-      <Button bsStyle="danger">python</Button>
+      <Button bsStyle="warning">python</Button>
     </ButtonToolbar>
 
-
-
+    <PyButton/>
 
 
   </React.Fragment>

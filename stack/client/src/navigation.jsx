@@ -23,10 +23,10 @@ function NavigationMenu() {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav>
-          <NavItem eventKey={1} href="/tictactoe">
+          <NavItem eventKey={1}>
             Versus
           </NavItem>
-          <NavItem eventKey={2} href="/checkers">
+          <NavItem eventKey={2}>
             Simulation
           </NavItem>
         </Nav>
