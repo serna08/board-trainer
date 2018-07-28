@@ -1,14 +1,15 @@
-from flask import Flask, render_template, render_template_string, request, redirect, url_for
-from otherpys import *
+from flask import Flask, render_template, render_template_string
+from flask import request, redirect, url_for
+from pys.otherpys import *
 
-app = Flask(__name__, static_folder="../../client/dist", template_folder="../../client")
+app = Flask(__name__, static_folder="../client/dist", template_folder="../client")
+app.config['DEBUG'] = True
 
-
+    #obslote    #app.config['FLASK_ENV'] = development
 
 #main bundled (webpacked) react app
 @app.route("/", methods=["GET", "POST"])
 def index():
-
     ButtonPressed = 0
     if request.method == "POST":
         ButtonPressed += 1
