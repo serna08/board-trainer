@@ -4,3 +4,5 @@ node_modules
 stack/client/dist/
 #py backups
 stack/server/py/__pycache__/
+stack/server/__pycache__/
+local/

@@ -1,0 +1,12 @@
+#pip requirements
+#
+## package-name
+## specificVersion >= 4.1.1
+## -r other_reqs.txt
+## ./some/other/dir/file.thing
+#
+## sample cli commands: cli> python setup.py
+##     is equivalent to:
+## SomeProject >= 1.2 --global-option="--no-user-cfg" \
+##                  --install-option="--prefix='/usr/local'" \
+##                  --install-option="--no-compile"

@@ -34,9 +34,9 @@ def otherpy():
     return sumis5()
 
 #inline variable
-@app.route('/post/<int:post_id>')
-def show_post(post_id):
-    return 'post is {}'.format(post_id)
+@app.route('/post/<int:post_ids>')
+def show_post(post_ids):
+    return 'post is {}'.format(post_ids)
 
 #function that takes args
 @app.route('/sq/<int:calc_id>')

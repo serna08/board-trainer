@@ -16,6 +16,7 @@ const App = () => (
     <br />
     <ButtonToolbar>
       <Button>reset</Button>
+      <Button>reset</Button>
       <Button bsStyle="warning">nothing</Button>
     </ButtonToolbar>
 
