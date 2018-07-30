@@ -7,18 +7,20 @@ import NavigationMenu from './navigation.jsx';
 import App1 from './boardsimple.jsx';
 import PyButton from './pythonclick.jsx';
 
+import AppTemplate from './app_template.jsx';
+
 const App = () => (
   <React.Fragment>
 
     <NavigationMenu />
     <App1 />
 
-    <br />
     <ButtonToolbar>
-      <Button>reset</Button>
       <Button>reset</Button>
       <Button bsStyle="warning">nothing</Button>
     </ButtonToolbar>
+
+    <AppTemplate />
 
     <PyButton/>
 

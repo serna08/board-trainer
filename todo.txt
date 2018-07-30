@@ -1,0 +1,8 @@
+TODO: json templates
+TODO: some decorations
+TODO: restful templates
+TODO: authentication
+TODO: session management
+TODO: tic tac toe
+TODO: barebones game template ---- this is the last thing to be done before moving to private development
+TODO: create private repository

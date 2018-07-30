@@ -6,3 +6,5 @@ stack/client/dist/
 stack/server/py/__pycache__/
 stack/server/__pycache__/
 local/
+stack/server/cldata/
+stack/client/src/data/cleared/

@@ -31,12 +31,13 @@ handleClick() {
    render() {
       return (
          <div style={boardStyle}>
-            <button style={tileStyle} type="button" disabled={0}></button>
-            <button style={tileStyle} type="button" disabled={0} onClick={this.handleClick}>active</button>
+            <button style={tileStyle} type="button" disabled={1}></button>
+            <button style={tileStyle} type="button" disabled={0} onClick={this.handleClick}>
+              active</button>
             <br/>
             <button style={tileStyle} type="button" disabled={1}>o</button>
             <button style={tileStyle} type="button" disabled={1}></button>
-            
+
          </div>
       );
    }
