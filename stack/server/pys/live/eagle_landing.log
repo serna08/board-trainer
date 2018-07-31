@@ -1,0 +1,67 @@
+how ttvanilla looks:
+
+[[['eagle_landing_ttt_555_00'],
+  ['blu', ['qx:go']],
+  [[[[[[110, 'b'], [210, 'b'], [310, 'b']],
+      [[120, 'b'], [220, 'b'], [320, 'b']],
+      [[130, 'b'], [230, 'b'], [330, 'b']]],
+     [0]]]],
+  'map_id:ref'],
+ 'msg::hi']
+
+
+
+how eagle_landing_ttt_555_00 should look:ABSOLUTE
+<-----------------------------------------------------------game
+[   [game1 stuff] [status] [currentlyActive]
+    [players] [observers] [brokers]
+    [total resources]
+    <-------------------------------------------------------turn
+    [   [turn1 stuff]
+          [[['eagle_landing_ttt_555_00'],
+              ['blu', ['qx:go']],
+          [[[[[[110, 'b'], [210, 'b'], [310, 'b']],
+              [[120, 'b'], [220, 'b'], [320, 'b']],
+              [[130, 'b'], [230, 'b'], [330, 'b']]],
+          [0]]]],
+          'map_id:ref'],
+          'msg::hi']
+          <-------------------------------------------------deal
+          [[['eagle_landing_ttt_555_00'],
+              ['blu', ['qx:go']],
+          [[[[[[110, 'b'], [210, 'b'], [310, 'b']],
+              [[120, 'b'], [220, 'b'], [320, 'b']],
+              [[130, 'b'], [230, 'b'], [330, 'b']]],
+          [0]]]],
+          'map_id:ref'],
+          'msg::hi']
+    ] --end turn1
+
+
+] --end game1
+
+
+how eagle_landing_ttt_555_00 should look:RELATIVE
+<-----------------------------------------------------------game
+[   [game1 stuff] [status] [currentlyActive]
+    [players] [observers] [brokers]
+    [total resources]
+    <-----------------------------------------------turn differences only
+    [   [turn1 stuff]
+          [[['eagle_landing_ttt_555_00'],
+              ['blu', ['qx:go']],
+          BOARD,
+          MOVE_DIFFs,
+          'map_id:ref'],
+          'msg::hi']
+          <-----------------------------------------deal differences only
+          [[['eagle_landing_ttt_555_00'],
+              ['blu', ['qx:go']],
+          BOARD_DIFFS,
+          MOVE_DIFFs,
+          'map_id:ref'],
+          'msg::hi']
+    ] -------------------------------------end turn1
+
+
+] -----------------------------------------end game1

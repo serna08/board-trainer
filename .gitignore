@@ -1,10 +1,26 @@
+##dev
 # node dependencies
 node_modules
+
+##client
 # bundled output
 stack/client/dist/
-#py backups
-stack/server/py/__pycache__/
-stack/server/__pycache__/
-local/
-stack/server/cldata/
+#not for repo
 stack/client/src/data/cleared/
+
+##server
+#py backups
+stack/server/pys/__pycache__/
+stack/server/__pycache__/
+#not for repo
+local/
+#cloud data
+stack/server/cldata/
+server/nodejs/private/
+dbs/production/
+dbs/training_testing/
+dbs/too_big/
+
+##personal
+#todo
+todo.txt
