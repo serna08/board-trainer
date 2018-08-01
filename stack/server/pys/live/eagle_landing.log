@@ -27,6 +27,7 @@ how eagle_landing_ttt_555_00 should look:ABSOLUTE
           'map_id:ref'],
           'msg::hi']
           <-------------------------------------------------deal
+          <------------------------------turn0 + deal1----------
           [[['eagle_landing_ttt_555_00'],
               ['blu', ['qx:go']],
           [[[[[[110, 'b'], [210, 'b'], [310, 'b']],

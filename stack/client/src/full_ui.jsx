@@ -1,10 +1,16 @@
 import React from 'react';
-import Header from './header.jsx';
+import Menus from './menus.jsx';
+import Canvas from './canvas.jsx';
+import Status from './status.jsx';
 
 class Full_UI extends React.Component {
    render() {
       return (
-         <Header/>
+        <div>
+          <Menus />
+          <Canvas />
+          <Status />
+        </div>
       );
    }
 }

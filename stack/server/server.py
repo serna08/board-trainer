@@ -1,22 +1,38 @@
 from flask import Flask, render_template, render_template_string
 from flask import request, redirect, url_for
+from flask import jsonify, json
 from pys.otherpys import *
+
+dbx = [6,6]
 
 app = Flask(__name__, static_folder="../client/dist", template_folder="../client")
 app.config['DEBUG'] = True
-
-    #obslote    #app.config['FLASK_ENV'] = development
 
 #main bundled (webpacked) react app
 @app.route("/", methods=["GET", "POST"])
 def index():
     ButtonPressed = 0
+    print(dbx)
     if request.method == "POST":
-        ButtonPressed += 1
-        print('button was pressed')
+        dbx[1] = dbx[1] + 1
+        print(dbx)
     else:
-        print('button not pressed')
+        print(dbx)
     return render_template("src/index.html", ButtonPressed = ButtonPressed)
+
+#json example request
+@app.route("/listen")
+def listen():
+    deal = []
+    for i in range(0,2):
+        inbound = ['deal.id', 'ee', [ 'tx_total', 'qx' ] ]
+        deal.append(inbound)
+    print(deal)
+    jsonDeal = json.dumps(deal)
+    print(jsonDeal)
+    return jsonify(jsonDeal)
+
+
 
 #constant string
 @app.route("/flask")
@@ -43,6 +59,13 @@ def show_post(post_ids):
 def show_calc(calc_id):
     return whatsquare(calc_id)
 
+##
+
+
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+#
