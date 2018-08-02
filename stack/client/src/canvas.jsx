@@ -6,25 +6,26 @@ import JsButton from './jsclick.jsx';
 class Canvas extends React.Component {
    render() {
       return (
-        <div>
-          <h4>canvas goes here</h4>
+        <div >
+          <h4>layout1</h4>
 
 
 
           <Tabs bsStyle={'pills'} defaultActiveKey={1} id="uncontrolled-tab-example">
-            <Tab eventKey={1} title="Tab 1">
+            <Tab eventKey={1} title="game1">
 
             <JsButton />
 
             </Tab>
-            <Tab eventKey={2} title="Tab 2">
+            <Tab eventKey={2} title="board2">
 <Grid>
             <Row className="show-grid">
               <Col xs={6} md={4}>
-                <code>&lt;{'Col xs={6} md={4}'} /&gt;</code>
+                <code>game 1 goes here</code>
               </Col>
               <Col xs={6} md={4}>
-                <code>&lt;{'Col xs={6} md={4}'} /&gt;</code>
+                <code>game 2</code>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae dui tempor, pretium nibh non, suscipit eros. Sed congue luctus lectus ac viverra. Vivamus tempor lorem id lectus volutpat, laoreet malesuada lacus luctus. Vestibulum aliquet lectus mauris, at venenatis nulla condimentum ac. Praesent eleifend, dolor non euismod hendrerit, nisi ipsum imperdiet lectus, ac placerat lacus neque nec felis. Maecenas felis ex, malesuada nec odio at, interdum tempus felis. Phasellus posuere purus sit amet nisi varius sodales. In varius dignissim dui, sit amet lobortis enim ornare in. Proin ut faucibus tortor. </p>
               </Col>
               <Col xsHidden md={4}>
                 <code>&lt;{'Col xsHidden md={4}'} /&gt;</code>
@@ -34,7 +35,7 @@ class Canvas extends React.Component {
 </Grid>;
 
   </Tab>
-  <Tab eventKey={3} title="Tab 3" disabled>
+  <Tab eventKey={3} title="#todo: move tabs down" >
 
 
 
@@ -47,10 +48,10 @@ class Canvas extends React.Component {
 
   <Row className="show-grid">
     <Col md={6} mdPush={6}>
-      <code>&lt;{'Col md={6} mdPush={6}'} /&gt;</code>
+      <code>push: col to the right</code>
     </Col>
     <Col md={6} mdPull={6}>
-      <code>&lt;{'Col md={6} mdPull={6}'} /&gt;</code>
+      <code>pull: col to the left</code>
     </Col>
   </Row>
 </Grid>;
@@ -58,7 +59,7 @@ class Canvas extends React.Component {
 
 </Tab>
 </Tabs>;
-          <h4>canvas ends here</h4>
+          <h4>___________________</h4>
         </div>
       );
    }

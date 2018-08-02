@@ -14,14 +14,20 @@ function NavigationMenu() {
       }
     `}
     </style>
-    <Navbar bsStyle="custom" inverse collapseOnSelect fluid>
-      <Navbar.Header>
-        <Navbar.Brand>
-          <a href="/">Snake Eyes</a>
+
+
+
+    <Navbar bsStyle="custom" fixedTop inverse collapseOnSelect fluid>
+
+
+      <Navbar.Header >
+        <Navbar.Brand >
+          <a href="/" >Snake Eyes</a>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
-      <Navbar.Collapse>
+
+  <Navbar.Collapse>
         <Nav>
           <NavItem eventKey={1}>
             Versus
@@ -34,7 +40,6 @@ function NavigationMenu() {
         <NavDropdown eventKey={3} title="Games" id="basic-nav-dropdown">
           <MenuItem eventKey={3.1}>Template</MenuItem>
           <MenuItem eventKey={3.2}>Tic Tac Toe</MenuItem>
-          <MenuItem eventKey={3.3}>Chess</MenuItem>
           <MenuItem divider />
           <MenuItem eventKey={3.3}>Cards</MenuItem>
         </NavDropdown>
@@ -45,7 +50,8 @@ function NavigationMenu() {
             Profile
           </NavItem>
         </Nav>
-      </Navbar.Collapse>
+        </Navbar.Collapse>
+
     </Navbar>
     </div>
   );

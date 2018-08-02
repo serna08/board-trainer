@@ -10,9 +10,9 @@ class JsButton extends React.Component {
       return (
         <div>
           <br/>
-          <h4>status: {this.ButtonPressed}</h4>
+          <h4>btn stat: {this.ButtonPressed}</h4>
           <form>
-            <Button bsStyle="danger">js</Button>
+            <Button bsStyle="warning">js button</Button>
             </form>
         </div>
       );
