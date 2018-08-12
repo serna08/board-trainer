@@ -12,7 +12,7 @@ class JsButton extends React.Component {
           <br/>
           <h4>btn stat: {this.ButtonPressed}</h4>
           <form>
-            <Button bsStyle="warning">js button</Button>
+            <Button  bsStyle="success">js button</Button>
             </form>
         </div>
       );

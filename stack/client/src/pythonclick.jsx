@@ -1,20 +1,17 @@
 import React from 'react';
 import {Button} from 'react-bootstrap';
-import pressedButton from "./data/button_pressed.jsx";
+
+const btnStyle = {
+  padding: '20',
+  margin: '10',
+};
 
 class PyButton extends React.Component {
-  constructor(props) {
-      super(props);
-      this.ButtonPressed= pressedButton;
-  }
-
    render() {
       return (
         <div>
-          <br/>
-          <h4>status: {this.ButtonPressed}</h4>
           <form method="post">
-            <Button bsStyle="danger" type="submit">python</Button>
+            <Button style={btnStyle}   bsStyle="danger" type="submit">kill ^X</Button>
             </form>
         </div>
       );

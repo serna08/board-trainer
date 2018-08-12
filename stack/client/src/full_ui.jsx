@@ -1,15 +1,15 @@
 import React from 'react';
 import Menus from './menus.jsx';
 import Canvas from './canvas.jsx';
-import Status from './status.jsx';
+import Statics from './statics.jsx';
 
 class Full_UI extends React.Component {
    render() {
       return (
         <div  >
-          <Menus />
           <Canvas />
-          <Status />
+          <Menus />
+          <Statics />
         </div>
       );
    }

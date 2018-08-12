@@ -1,8 +1,13 @@
 import React from 'react';
-import {Navbar, NavItem, NavDropdown, MenuItem, Nav} from 'react-bootstrap';
+import {Navbar, NavItem, NavDropdown, MenuItem, Nav, Button, Glyphicon} from 'react-bootstrap';
 import { bootstrapUtils } from 'react-bootstrap/lib/utils';
 
 bootstrapUtils.addStyle(Navbar, 'custom');
+
+const iconStyle ={
+  color: 'deeppink',
+  verticalAlign: 'middle'
+};
 
 function NavigationMenu() {
   return (
@@ -14,15 +19,13 @@ function NavigationMenu() {
       }
     `}
     </style>
-
-
-
-    <Navbar bsStyle="custom" fixedTop inverse collapseOnSelect fluid>
+    <Navbar  fixedTop inverse collapseOnSelect fluid>
 
 
       <Navbar.Header >
         <Navbar.Brand >
-          <a href="/" >Snake Eyes</a>
+          <a href="/" >
+          Snake Eyes <Glyphicon style={iconStyle} glyph="glass" /></a>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
@@ -30,25 +33,22 @@ function NavigationMenu() {
   <Navbar.Collapse>
         <Nav>
           <NavItem eventKey={1}>
-            Versus
-          </NavItem>
-          <NavItem eventKey={2}>
-            Simulation
+          quickstart_
+          <Glyphicon style={iconStyle} glyph="dashboard" />
           </NavItem>
         </Nav>
         <Nav pullRight>
-        <NavDropdown eventKey={3} title="Games" id="basic-nav-dropdown">
-          <MenuItem eventKey={3.1}>Template</MenuItem>
-          <MenuItem eventKey={3.2}>Tic Tac Toe</MenuItem>
-          <MenuItem divider />
-          <MenuItem eventKey={3.3}>Cards</MenuItem>
+        <NavItem eventKey={1} href="#">
+
+        settings_
+        <Glyphicon style={iconStyle} glyph="cog" />
+
+        </NavItem>
+        <NavDropdown eventKey={3} title="games" id="basic-nav-dropdown">
+              <MenuItem eventKey={3.1}><Glyphicon glyph="tower" />Tic Tac Toe</MenuItem>
         </NavDropdown>
-          <NavItem eventKey={1} href="#">
-            Settings
-          </NavItem>
-          <NavItem eventKey={2} href="#">
-            Profile
-          </NavItem>
+
+
         </Nav>
         </Navbar.Collapse>
 

@@ -1,0 +1,239 @@
+{"_______________________________________________________________"}
+{ "__o0__" : "..............................................boo!" }
+{"by midnight"                                        :"v1--2018" }
+{"snake eyes logic" : "__snake-eyes.app________________pre.alpha" }
+{"oo":"_________________________________________________\/\/--ok" }
+{"tldr" : "...............v1 json structs (py & jsx / mdb & sq3)" }
+{"data" : [ "py.jsx." , "json" , "https.rest" , "jwt.xha2.csx" ]  }
+{ " ___________________________________________________________ " }
+{                       "........oo........"                      }
+
+
+{"__o1__:primer" : "all stacks _________________________________" }
+,{"app" : ["gnp","rbw","fnms","d","vm(kng)"] }
+,{"logic" : [
+      "server" , "arena" , "volume" ,
+      "layout" ,
+            {"map" : ["agents","rounds","fields","ends","status" ]
+} ] }}
+,{"comms":
+    {"c" : "(u.lo.h)_+_(u.id_lo.id)_+_(req.change.h)"}
+    {"s" : "(md5_last.dl"}
+    {"x" : [ "rand_chx", "nest_lvls" , "cryplord" , "cycle" ]     }
+},{"__data__xultan" : "shake-bkp-buffer-xultan-checksum_________" }
+{                       ".................."                      }
+
+
+{"___o2__logic.stack" : "server <-> client <-> fingertips ______" }
+,
+{"server_x":
+  {"unique_id" : "reds"}
+  {"status" : ["color" , "code" ] }
+  {"arenas" : [ "special", "atlanta" , "jamboree" , "010ss" ]     }
+  {"owner" : "nightly"}
+  {"bkp" : "ref__id" }
+},{"__//__" : "docker.deployment" }
+,
+{"arena_0":
+  {"unique_id" : "atlantis"}
+  {"volumes":  [ "ancientEgypt", "kidBilly", "LunaLovegood" ]     }
+  {"status" :  [ "Lazarus", "Collin" , "Victor" ] }
+},{"__//__" : "droplet.drive" }
+,
+{"volume_1":
+  {"unique_id________" : "volummma"}
+  {"layouts":  [  "Lana Solitaire"    ,   "LunaStats"   ,
+                  "Tim TackToe"       ,   "TimStats"    ,
+                  "Loonie Pongs"      ,   "LooniStats"  ,
+                  "Luna Chessington"  ,   "LunaStats"   ]
+}},{"__//__" : "server.ram%.alloc" }
+,
+{"layout_2":
+  {"unique_id________" : "somethingEZ"}
+  {"maps":  [ "chess1plz", "Maybe-last-of-best-of-three" ]
+}},{"__//__" : "user.requested" }
+,,,{"__//__" : "one game of chess? _____________________________" }
+{                       ".................."                      }
+
+
+{"__o3__" : "game: field(s), state, and specialties ____________" }
+,
+{"map_3": {
+    "unique_id________" : "chess_instance_one_board_one"
+    },
+      "agents":  [ "Darn Olom", "Luie Cloud", "Nurel Brokir" ],
+      "rounds":  [ "initDeploy", "midGBrawl", "Check" , "++" ],
+      "fields":  [ "grid", "cemetery" , "check", "invalid"   ],
+      "ends"  :  [ "Vic Hon", "Will Conders", "Rogr StpRats" ],
+      "status":  [ "Laz Callington", "Collin Caulghington"   ]
+}}
+,
+{"agent_3a":
+  {"unique_id________" : "P1"}
+  {"deals":  [ "init.deal", "stuff", "turn1.spoils" ]}
+  {"status":  [ "code", "color" ]}
+}
+,
+{"round_3b":
+  {"unique_id________" : "somecode"}
+  {"turns":  [ "init0", "broker1", "p1" , "p2" , "br2" , "end" ]  }
+}
+,
+{"turn_3b1":
+  {"unique_id________" : "somecode"}
+  {"deals":  [ "xRes", "mHere", "koBill", "check" , "endTurn" ]   }
+}
+,
+{"deal_3b1a":
+  {"unique_id________" : "somecode"}
+  {"actions":  [ "i buy carousel", "i shootz p2pawn", "i raise" ] }
+  {"reactions":  [ "broker loot$", "p2pawn goes2rip", "reraise" ] }
+}
+,
+{"action_3b1a1":
+  {"unique_id________" : "somecode"}
+  {"name":  [ "boardAdv", "action", "advClosing" ,"doomCheck" ]   }
+  {"status":  [ "lastPlay", "privacy", "parent" ]}
+}
+,
+{"reaction_3b1a2":
+  {"unique_id________" : "somerecode"}
+  {"name":  [ "boardAdv", "reaction" ,"activationTime" ]   }
+  {"status":  [ "lastPlay", "privacy", "parent" ]}
+}
+,
+{"field_3c":
+  {"unique_id________" : "somecode"}
+  {"tiles_or_grids___" : "Board_and_Water"}
+  {"units____________" :  [ "innerts" , "player1s" , "etc" ]      }
+  {"special_rules____" : "arrayOfDealsGoesHere"}
+  {"colorCode________" : "Colling Caulgh"}
+  {"internalStatus___" :  "666" }
+}
+,
+{"tile_3c1":
+  {"unique_id________" : "somecode"}
+  {"subdivisions_____" : {"half&half"} {"tile.id.3c1_.3c1_...."}  }
+  {"units____________" : {"Lfoot_orc"} {"unit.id.3c2_.3c2_...."}  }
+  {"special_rules____" : "tile_specific_3s"}
+  {"colorCode________" : "Colling Caulgh"}
+  {"internalStatus___" :  "666" }
+}
+,
+{"unit_3c2":
+  {"unique_id________" : "somecode"}
+  {"location_________" : "unit_type"}
+  {"units____________" :  {"carrier"} {"unit.id.3c2_.3c2_...."}   }
+  {"statistics_______" : "TODO: db analysis for realm wide data"}
+  {"colorCode________" : "Colling Caulgh"}
+  {"internalStatus___" :  "666" }
+  {"special_rules____" : "mod to init internalStatus by unit_type"}
+}
+,
+{"end_3d":
+  {"unique_id________" : "somecode"}
+  {"hash":  [ "weirdcodeencrpyt" ]}
+}
+,
+{"scoreScreen_3d1":
+  {"unique_id________" : "somecode"}
+  {"suggestions":  [ "internal_ads", "games", "scores" ]}
+  {"status":  [ "lastPlay", "visible", "parent" ]}
+}
+,
+{"status_3e1":
+  {"unique_id________" : "somecode"}
+  {"status_id________" : "Allison Goods"}
+  {"lastCall_________" : "Laz Callington"}
+  {"internalStatus___" :  "666" }
+  {"colorCode________" : "Colling Caulgh"}
+  {"virtualLocation__" :  [ "Vict", "AppVs" , "Sequr" ]           }
+  {"historyLog_______" : "arrayOfDealsGoesHere"}
+}
+,
+{"internalStatus_3e.u/t":
+  {"unique_id________" : "somecode"}
+  {"status_id________" : "Allison Goods"}
+  {"lastCall_________" : "Laz Callington"}
+  {"internalStatus___" :  "666" }
+  {"colorCode________" : "Colling Caulgh"}
+  {"virtualLocation__" :  [ "Vict", "AppVs" , "Sequr" ]           }
+  {"historyLog_______" : "arrayOfDealsGoesHere"}
+},{"__oX__" : "units' stats, like armor/speed, or live/dead"}
+,
+{"quickstat_3q" :
+    {"one_liner_status" : "###"}
+}
+,
+{"special_rules_3s"}
+, {"note:_____________________________________________________"}
+    {"special_rules____" : "unit specials , nerfs / buffs     "}
+    {"specials ex:_" : "scroll from inventory (-unit) to -->  "}
+    {"_2_cont. ex:_" : "modify internalStatus (+some status). "}
+    {"_3_cont. ex:_" : "The term 'statistics' is reserved for "}
+    {"_4_cont. ex:_" : "database analysis."}{"......"}
+
+,{"up next" : "turn 1 to end____________________________________" }
+{                       ".................."                      }
+
+
+{"__o4__" : "timing ____________________________________________" }
+,{"TODO:" : "optimize server responses/ req handling / q "}
+,{"TODO: prioritizing action, reaction, brokers"}
+,{"TODO: deal syntax __ backups"}
+,{"TODO:" : "RTS time management"}
+,{"TODO:" : "shooter lag"}
+,{"TODO:" : "xultan: how to"}
+,{"_____________________________________________________________" }
+{                       ".................."                      }
+{"__o5__" : "graphics __________________________________________" }
+,{"TODO:" : "graphix"}
+,{"TODO:" : "streams"}
+,{"TODO:" : "scenes"}
+,{"TODO:" : "camera / observers"}
+,{}
+{                       ".................."                      }
+{"__o6__" : "bulk ______________________________________________" }
+,{"TODO:" : "big data management"}
+,{"TODO:" : "dbs"}
+,{"TODO:" : "profile_emulator"}
+,{"TODO:" : "ml and ai apis"}
+,{"TODO:" : "self analysis"}
+,{}
+{                       ".................."                      }
+{"__o7__" : "kibana ____________________________________________" }
+,{"TODO:" : "slash it with the kibana: really big data"}
+,{"TODO:" : "VM repair"}
+,{"TODO:" : "who needs ROM? distributed and duplicate live apps"   }
+,{"TODO:" : "the end of backups"}
+,{}
+{                       ".................."                      }
+
+
+{"__a1__" : "quickstart  ____________________________________aa1" }
+,{"tiled_quick_start2": {
+  "name": "unique_tile_identifier",
+  "group of": { "items": [
+                    {"these":
+                        "pairs",
+                        "are":
+                        "separate"},
+                    {"multiple":
+                        ["key" , "value", "specials", "/(%$" ]
+}]}}}
+,{"0_q2": {
+  "01": "011",
+  "02": { "021": [
+            {"0211":
+                "0212",
+                "0221":
+                "0222"},
+            {"0220":
+                ["02201" , "02202", "02203", "02204" ]
+}]}}}
+,{"TODO: message_templates"}
+,{"TODO: apis, ais"}
+
+{"###############################################################"}
+{                       "*******by66*******"                      }
+{                       "********oo********"                      }

@@ -1,0 +1,13 @@
+{"model": {
+  "json": "encoding",
+  "for": "transmission",
+  "group of": {
+    "items": [
+      {"these": "pairs", "are": "separate"},
+      {"easy": "to read", "implemented": "lightweight"},
+      {"multiple":
+        ["key" , "value", "specials", "/(%$" ]
+      }
+    ]
+  }
+}}
